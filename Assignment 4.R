@@ -1,9 +1,10 @@
 #Q1
 # --- before using funciton ---
 # --- test ---
+# html file is saved from: https://en.wikipedia.org/wiki/2016_Summer_Olympics_medal_table
 overall_data = readLines("summer.html")
 #overall_data
-overall_data[111] # test
+overall_data[111] # or 113
 
 table_location = grep("<caption>2016 Summer Olympics medal table</caption>", overall_data) # find the location of string of the metal table
 table_location
