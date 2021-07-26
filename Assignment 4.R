@@ -81,6 +81,3 @@ process_function = function(filename) {
 
 
 extraction = process_function("summer.html")
-
-
-#Q2
