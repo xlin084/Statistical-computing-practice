@@ -98,14 +98,5 @@ final = function (x) {
   sum(temp1, temp2)
 
 }
+
 final(test4a(10))
-
-
-
-
-
-
-
-
-
-
